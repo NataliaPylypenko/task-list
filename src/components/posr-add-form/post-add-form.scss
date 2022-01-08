@@ -1,0 +1,15 @@
+@import '../../media.scss';
+.bottom-panel {
+  margin-top: 20px;
+  @media #{$mobile}{
+    flex-direction: column;
+  }
+  .new-post-label {
+    width: auto;
+    flex-grow: 1;
+    margin-right: 3px;
+    @media #{$mobile}{
+      margin-right: 0;
+    }
+  }
+}

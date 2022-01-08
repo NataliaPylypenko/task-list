@@ -1,0 +1,14 @@
+@import '../../media.scss';
+.app-list {
+  margin-top: 50px;
+  @media #{$mobile}{
+    margin-top: 30px;
+  }
+  .list-group-item {
+    padding: 20px 35px 10px 35px;
+    margin-top: 10px;
+    @media #{$mobile}{
+      padding: 10px;
+    }
+  }
+}

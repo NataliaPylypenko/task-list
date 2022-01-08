@@ -1,0 +1,16 @@
+@import '../../media.scss';
+.search-panel {
+  margin: 1rem 0;
+  @media #{$mobile}{
+    flex-direction: column;
+  }
+  .search-input {
+    width: auto;
+    flex-grow: 1;
+    margin-right: 3px;
+    @media #{$mobile}{
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  }
+}
